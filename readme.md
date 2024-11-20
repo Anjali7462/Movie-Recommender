@@ -2,7 +2,7 @@
 
 This repository contains a movie recommender system built using the **TMDB5000** dataset available on Kaggle. The system extracts key movie features, processes them into vector embeddings using the **Bag of Words** technique, and recommends movies based on **Cosine Similarity**. The app is built using **Streamlit** to allow users to search for a movie and receive recommendations.
 
-![Streamlit Frontend](images/demo.png)
+![Streamlit Frontend](./img/demo.png)
 
 ## Table of Contents
 
@@ -46,7 +46,7 @@ After combining the features, we applied the **Bag of Words (BoW)** technique to
 - **Stemming**: The text was reduced to its base form using the **NLTK** library's `PorterStemmer` to eliminate variations of words.
 - **Top 5,000 Words**: A vocabulary was created by considering the top 5,000 most frequent words across all tags.
 
-![Bag of Words diagram](images/bag-of-words.jpeg)
+![Bag of Words diagram](./img/bag-of-words.jpeg)
 
 ---
 
